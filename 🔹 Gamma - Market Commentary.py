@@ -1,0 +1,121 @@
+import streamlit as st
+
+st.set_page_config(page_title="Market Commentary", page_icon="🧑‍💻")
+
+# Custom sidebar background color (soft green)
+st.markdown("""
+    <style>
+        [data-testid="stSidebar"] {
+            background-color: #343c47;
+            color: #fcfcfe;
+        }
+        [data-testid="stSidebar"] * {
+            color: #fcfcfe !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+st.title("5/12/2024")
+
+st.markdown("""
+
+📈 SPY 580: A Key Inflection Point into June OPEX
+
+On Friday, May 9th, traders added ~80K in call interest at SPY 580 — notably ahead of trade talks. Why does this matter?
+
+SPY 580 has consistently represented the upper bound of the potential price path into the June quarterly OPEX and Q2-end rebalancing. This level isn’t just technical — it’s behavioral.
+
+Earlier this year, before April’s OPEX, SPY 580 emerged as the largest Call Wall, measured by net call gamma (call gamma minus put gamma). The positioning likely reflected risk mitigation by dealers or large shorts anticipating a possible squeeze into June. This demand showed up as long-duration gamma, offering a signal of strategic hedging, not speculation.
+
+Layered on top of that:
+
+· Massive volume spikes in early April (on April 7th, 8th, and 9th SPY volume on a daily basis was 6.5, 3.5, and 6.0 standard deviations above the mean, respectively),
+
+·  Strikes with short-duration, significant near-the-money call gamma, which has an outsized effect on dealer hedging behavior.
+
+Once SPY began holding above those high-volume levels and gamma piled in, the probability of a gamma-driven melt-up — the very risk large players were hedging — increased meaningfully.
+
+Yes, markets can still pull back. But this setup tells us that key players were preparing for exactly this kind of squeeze — and may now be fueling it.
+
+""")
+
+st.title("5/9/2024")
+
+st.markdown("""
+
+📈 SPY Gamma Recap — A Week of Reset and Positioning for Upside
+
+This week, SPY gave traders a clearer picture of where the market might be heading.
+
+🔹 The Call Wall held firm at 570, and is now showing signs of moving sideways to higher as:
+
+• Call interest was added at 580, SPY’s 2nd largest Call Wall
+• Additional activity hit the 590 and 600 strikes — suggesting upside positioning by active participants
+
+🔹 Notably, the duration at the 570 Key Gamma Strike dropped, while total gamma remained flat. This tells me traders are rotating into near-term expirations to fuel momentum rather than fading strength.
+
+Earlier this week, on Tuesday (May 6), SPY briefly dipped below its 560 Put Wall — but with no downside follow-through and no bid to longer-term vol (VIX3M, VIX6M), the move felt like post-expiration digestion (roughly 16.5% of SPY’s total gamma expired May 2).
+
+🧭 What I’m watching now: If the Call Wall continues drifting higher and short-dated call interest builds near price, that could be the confirmation bulls need.
+
+📊 Gamma exposure continues to be one of the cleanest windows into institutional positioning.
+
+""")
+
+st.title("5/8/2024")
+
+st.markdown("""
+
+📈 SPY Gamma Roadmap: 560 & 570 Are the Levels to Watch
+
+Overnight, SPY’s Call Wall shifted sideways to 570 as ~6.5K calls were added. Price also moved higher in tandem, while the Put Wall remains anchored well below at 540 — suggesting the path of least resistance remains to the upside.
+
+💡 But here’s where it gets interesting:
+
+ At the close on April 30 and May 1, SPY’s total options gamma was minimal — a typical sign that liquidity was pulled ahead of key events like the FOMC decision. When this happens, we often get a clearer signal of long-duration gamma strikes — levels that represent where institutions are committed.
+
+📍 April 30 Key Gamma Strike (long duration): 560
+ 📍 May 1 Key Gamma Strike (long duration): 570
+
+▶️ Going forward:
+ If SPY pulls back into 560 or 570 and finds support, and we see short-dated call interest build near those levels, it may signal that bulls remain in control and the market has absorbed the Fed outcome constructively.
+—
+📊 Watch the strikes. Watch the flows. Watch the gamma.
+
+""")
+
+st.title("5/7/2024")
+
+st.markdown("""
+
+📊 Gamma Positioning Insights – SPY 540 & SPY 570 in Focus
+
+SPY 540 currently holds the largest net put gamma, and with an average expiration greater than 40 days, it's likely this level is being defended by institutional players. This type of positioning often signals a tactical long bias anchored to that strike.
+
+Meanwhile, the largest net call gamma—or Call Wall—sits at SPY 570. Historically, when the Call Wall shifts sideways or higher, SPY price tends to follow. Although the Call Wall eased today, I’ll be watching closely to see if it reclaims or advances tomorrow.
+
+🔁 These gamma dynamics suggest a market at an inflection point—hedging pressure vs. directional intent. Stay nimble.
+
+""")
+
+st.title("5/6/2024")
+
+st.markdown("""
+
+🔍 Gamma Spotlight: SPY 560 Becoming a Key Battleground
+
+Yesterday (May 5), roughly 60,000 puts were added to SPY's 560 strike—marking it as a growing area of interest. As of today (May 6), most of that open interest remains intact, reinforcing the level's relevance in the near term.
+
+What makes SPY 560 notable?
+
+📌 It holds the largest overall gamma concentration—with put gamma now outweighing call gamma.
+
+ 📆 Much of that put gamma expires within the next 5 trading days, suggesting this level could act as a gravitational magnet in the short term, potentially suppressing volatility or creating sharp directional risk if breached.
+
+📈 If SPY trades below 560, that gamma profile may flip from stabilizing to destabilizing, amplifying downside moves.
+
+ 🧘‍♂️ Above 560, price action could consolidate as short-dated gamma decays and market makers rebalance.
+—
+💭 Are you positioning around key gamma levels like SPY 560?
+
+""")
