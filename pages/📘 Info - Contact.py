@@ -2,6 +2,19 @@ import streamlit as st
 
 st.set_page_config(page_title="About Me", page_icon="🧑‍💻")
 
+# Custom sidebar background color (soft green)
+st.markdown("""
+    <style>
+        [data-testid="stSidebar"] {
+            background-color: #343c47;
+            color: #fcfcfe;
+        }
+        [data-testid="stSidebar"] * {
+            color: #fcfcfe !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("About Me")
 
 st.markdown("""

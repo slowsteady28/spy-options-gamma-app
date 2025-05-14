@@ -5,6 +5,19 @@ import openpyxl
 
 st.set_page_config(page_icon=":guardsman:", layout="wide")
 
+# Custom sidebar background color (soft green)
+st.markdown("""
+    <style>
+        [data-testid="stSidebar"] {
+            background-color: #343c47;
+            color: #fcfcfe;
+        }
+        [data-testid="stSidebar"] * {
+            color: #fcfcfe !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Import data
 SPYWallsDFrm = pd.read_excel('SpyGammaAppData.xlsx', sheet_name='SPY Walls').tail(50)
 
