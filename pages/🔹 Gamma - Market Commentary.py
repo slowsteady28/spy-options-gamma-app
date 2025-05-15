@@ -24,12 +24,12 @@ st.markdown("""
 
 On April 2nd, SPY 590 held the longest call gamma duration (~47 trading days) — a sign that dealers or MMs saw this level as a potential cap for a Vanna-fueled rally.
 
-Fast forward to now:
-📅 May 15th
-✅ Price has reached SPY 590
-✅ VIX6M is perking up
-✅ Key Gamma has lost call interest three days in a row (-54K, -37K, -12.6K)
-✅ Today, we see an uptick in call gamma duration at Key Gamma
+Fast forward to now:<br>
+📅 May 15th<br>
+✅ Price has reached SPY 590<br>
+✅ VIX6M is perking up<br>
+✅ Key Gamma has lost call interest three days in a row (-54K, -37K, -12.6K)<br>
+✅ Today, we see an uptick in call gamma duration at Key Gamma<br>
 
 This sequence tells a story:
 Short-term traders that helped drive the rally are now likely taking profits, increasing the odds of sideways consolidation heading into next week.
