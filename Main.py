@@ -35,7 +35,7 @@ chart_price_levels = alt.Chart(df_price_levels_melted).mark_line().encode(
 ).properties(title="CW1, PW1, and KGS1 Levels", height=400)
 
 # -------- Net Change in Call and Put OI --------
-df_oi_change = SPYWallsDFrm[["Date (0DTE)", "Call OI Change CW1", "Put OI Change CW1"]].rename(columns={"Date (0DTE)": "Date"})
+df_oi_change = SPYWallsDFrm[["Date (0DTE)", "Net Change in Call OI", "Net Change in Put OI"]].rename(columns={"Date (0DTE)": "Date"})
 df_oi_melted = df_oi_change.melt(id_vars=["Date"], var_name="OI Type", value_name="OI Change")
 
 chart_oi_change = alt.Chart(df_oi_melted).mark_bar(opacity=0.6).encode(
