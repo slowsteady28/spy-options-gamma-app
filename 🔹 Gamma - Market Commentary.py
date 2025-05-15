@@ -15,6 +15,38 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.title("5/15/2024")
+
+st.markdown("""
+
+🔹 LinkedIn Post Draft
+📍SPY 590: Where Institutional Hedging Meets Short-Term Exhaustion?
+
+On April 2nd, SPY 590 held the longest call gamma duration (~47 trading days) — a sign that dealers or MMs saw this level as a potential cap for a Vanna-fueled rally.
+
+Fast forward to now:
+📅 May 15th
+✅ Price has reached SPY 590
+✅ VIX6M is perking up
+✅ Key Gamma has lost call interest three days in a row (-54K, -37K, -12.6K)
+✅ Today, we see an uptick in call gamma duration at Key Gamma
+
+This sequence tells a story:
+Short-term traders that helped drive the rally are now likely taking profits, increasing the odds of sideways consolidation heading into next week.
+
+Adding to this view:
+
+SPY's Put Wall has moved up to 586, with ~3-day duration and slight net put gamma bump
+
+This morning’s gap down comes with no panic in vol, suggesting those puts may be sold, placing dealers in a positive gamma zone
+
+🧭 Heading into May OPEX, the question becomes:
+Will support hold near SPY 570/560 once short-dated gamma decays?
+
+Watch how Call Wall, Put Wall, and Key Gamma evolve. That’s the roadmap.
+
+""")
+
 st.title("5/12/2024")
 
 st.markdown("""
