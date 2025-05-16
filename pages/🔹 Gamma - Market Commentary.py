@@ -15,11 +15,34 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.title("5/16/2024")
+
+st.markdown("""
+
+📊 SPY Positioning Update – May 15, 2025
+
+Price continues to drift higher — likely the result of put holders throwing in the towel, dealers adjusting hedges, and short-term players leaning long via call exposure.
+
+With the Call Wall now up to SPY 600 and Memorial Day around the corner, the path of least resistance remains to the upside.
+
+But signs of positioning fatigue are emerging:
+
+* Call interest at Key Gamma has been withdrawn over the last few sessions
+* The main Call Wall saw a net decline in interest
+* OPEX is approaching, which may strip out short-dated gamma that’s been helping fuel the rally
+
+📉 This dynamic opens the door to sideways consolidation in the days ahead.
+
+Always watching gamma shifts, not just price.
+
+""")
+
+
+
 st.title("5/15/2024")
 
 st.markdown("""
 
-🔹 LinkedIn Post Draft
 📍SPY 590: Where Institutional Hedging Meets Short-Term Exhaustion?
 
 On April 2nd, SPY 590 held the longest call gamma duration (~47 trading days) — a sign that dealers or MMs saw this level as a potential cap for a Vanna-fueled rally.
