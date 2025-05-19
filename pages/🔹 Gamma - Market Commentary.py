@@ -15,6 +15,54 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.title("5/19/2024")
+
+st.markdown("""
+
+📉 Post-OPEX Gamma Reset: Who Gains Control?
+
+Following May's OPEX, the SPY ETF saw a meaningful reduction in positioning:
+
+* 🔻 ~700K in call open interest and ~2M in put OI rolled off
+* 🔻 Net call gamma dropped by ~$1B
+* 🔺 Net put gamma increased by ~$600M
+
+This effectively removed much of the short-dated gamma that had been supporting price action — leaving the market in a temporary “neutral zone.”
+
+So what now?
+
+🔹 SPY 580 becomes critical.
+
+It holds long-duration call gamma extending into September. If bulls want to maintain control, price must hold this level — signaling continued institutional support heading into the summer.
+
+If bears gain control, expect:
+
+* The Put Wall to rise just below price
+* Duration to drop
+* Net put gamma to climb
+
+That’s exactly how we’re setting up this morning:
+
+📍 The Put Wall has risen to SPY 588.
+
+But the big question is:
+
+Will price break below SPY 588 and test support at 580?
+
+Or will long-duration put gamma at SPY 550 and 540 come into play?
+
+🧭 We’ll know bulls are back in control if:
+
+* Price holds near 580
+* Short-term call interest builds
+* The Call Wall moves sideways to higher
+* Volatility measures remain subdued
+
+OPEX has cleared the deck. Now we wait to see who takes the wheel.
+
+""")
+
+
 st.title("5/16/2024")
 
 st.markdown("""
