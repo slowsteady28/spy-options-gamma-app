@@ -39,7 +39,8 @@ Let’s see if 600 becomes a ceiling—or base—for the next leg.
 
 """)
 
-st.image("assets/TRACE.jpg", caption="Spot Gamma TRACE", use_column_width=True)
+st.image("assets/TRACE.jpg", caption="Spot Gamma TRACE")
+st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")
 
 
 
