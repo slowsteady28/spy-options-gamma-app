@@ -15,6 +15,34 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.title("5/20/2024")
+
+st.markdown("""
+
+
+📊 SPY Gamma Setup: Bulls in Control, But Fatigue May Be Setting In
+
+
+This morning’s gamma landscape is clean: SPY’s Key Gamma and Call Wall both sit at 600, with ~10 days of call gamma duration and ~$300M in net call gamma—well above average.
+
+That setup, along with recent price action, suggests short-term bullish traders remain in control. But positioning tells us something more nuanced:
+
+🔻 Call interest has been withdrawn at both Key Gamma and the Call Wall
+
+📉 SpotGamma's TRACE shows dealers selling deltas, likely in response to traders unwinding upside exposure via call sales or put buying
+
+SPY 600 has acted as a magnet—being both a gamma inflection point and a long-duration target into June OPEX. But with price nearly there and upside scenarios increasingly priced in, we may now be approaching a pause point.
+
+🧭 A calm gamma environment still favors bulls, but signs of exhaustion suggest consolidation is likely.
+
+Let’s see if 600 becomes a ceiling—or base—for the next leg.
+
+""")
+
+st.image("assets/TRACE.jpg", caption="Spot Gamma TRACE", use_column_width=True)
+
+
+
 st.title("5/19/2024")
 
 st.markdown("""
