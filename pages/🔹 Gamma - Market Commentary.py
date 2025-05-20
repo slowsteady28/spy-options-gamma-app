@@ -1,4 +1,6 @@
 import streamlit as st
+from datetime import datetime
+now = datetime.now()
 
 st.set_page_config(page_title="Market Commentary", page_icon="🧑‍💻")
 
@@ -40,7 +42,7 @@ Let’s see if 600 becomes a ceiling—or base—for the next leg.
 """)
 
 st.image("assets/TRACE.jpg", caption="Spot Gamma TRACE")
-st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")
+st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")  # ✅ This will now work
 
 
 
