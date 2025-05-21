@@ -63,7 +63,7 @@ Meanwhile, internals show breadth has been stretched, consistent with prior over
 """)
 
 st.image("assets/SPY 570.jpg", caption="Long Gamma Duration at SPY 570")
-st.image("assets/SPY Internals.jpg", caption="SPY Internals")
+st.image("assets/SPY INTERNALS.jpg", caption="SPY Internals")
 st.image("assets/SPY PRICE WEDGE.jpg", caption="")
 st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")  # ✅ This will now work
 
