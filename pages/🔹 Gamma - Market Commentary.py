@@ -17,6 +17,60 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.title("5/21/2024")
+
+st.markdown("""
+
+📉 SPY Gamma Signals Weakening Bull Control — Key Levels Ahead
+
+For several sessions, we’ve been calling for consolidation — and now price action is catching up to what the options market has been signaling for days.
+
+Between May 13 and May 21, we saw consistent call interest withdrawal at SPY's Key Gamma Strike:
+
+May 13: -54K
+
+May 14: -37K
+
+May 15: -12.6K
+
+May 16: -12.7K
+
+May 19: -18.8K
+
+May 21: -1.7K
+
+At the same time:
+
+The SPY Put Wall hovered near price
+
+Put gamma increased
+
+Put duration dropped, reflecting short-term hedging behavior
+
+This is how the options market shows control slipping from bulls — gradually, then all at once.
+
+📉 Now that price appears to have broken the rising wedge that had defined bull control, we look to gamma duration for potential support zones:
+
+SPY 570 – held significant put gamma duration on 5/7
+
+SPY 550 – carried 40+ trading days of put duration on 5/12 & 5/13
+
+Meanwhile, internals show breadth has been stretched, consistent with prior overbought levels in strong uptrends.
+
+🧭 In short: bulls may be on pause, and SPY is starting to recalibrate. Keep an eye on 570 and 550.
+
+
+""")
+
+st.image("assets/SPY 570.jpg", caption="Long Gamma Duration at SPY 570")
+st.image("assets/SPY Internals.jpg", caption="SPY Internals")
+st.image("assets/SPY PRICE WEDGE.jpg", caption="")
+st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")  # ✅ This will now work
+
+
+
+
+
 st.title("5/20/2024")
 
 st.markdown("""
