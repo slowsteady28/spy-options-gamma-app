@@ -17,6 +17,48 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+
+st.title("5/27/2024")
+
+st.markdown("""
+
+📉 Quarter-End Gamma in Control
+
+Welcome back from the long Memorial Day weekend.
+
+Let’s get into what’s happening in markets — and how we can use options positioning to decode the price action.
+
+🧠 The core idea:
+Quarter-end gamma is in control. With JPMorgan’s large JHEQX fund call overwrite at SPX ~5900, dealers are in positive gamma territory — meaning they’re likely selling strength and buying weakness.
+
+So… when did they sell strength?
+
+📊 Let’s look at SPY's options positioning:
+
+In mid-May, SPY's largest put walls sat just below price. That likely reflected expectations that dealers would sell futures as hedging pressure kicked in.
+
+Since then, we've seen selling play out — and now SPY's call walls are near spot, while put walls have shifted down… even as over 40,000 puts were added.
+
+Duration of the call walls has shortened — a sign of hedging activity tightening around current price levels.
+
+🖼️ Charts:
+🔹 SPY Call Wall Positioning & Duration
+🔹 SPY Put Wall Positioning vs. Price
+
+📌 This is how I use options gamma, positioning, and duration to contextualize flow — not predict direction, but interpret the “why” behind moves.
+
+Let me know if you'd like access to the app I’ve built to visualize this data in real-time. I’m looking to connect with others in the space who care about market structure and flow mechanics.
+
+#SPY #OptionsFlow #GammaExposure #SPX #DealerPositioning #QuarterEnd #JHEQX #MarketStructure #CapitalMarkets #FastAPI #React
+
+
+""")
+
+st.image("assets/SPY's Call Wall.jpg", caption="Long Gamma Duration at SPY 570")
+st.image("assets/SPY's Put Wall.jpg", caption="SPY Internals")
+st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")  # ✅ This will now work
+
+
 st.title("5/21/2024")
 
 st.markdown("""
