@@ -18,6 +18,39 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+
+
+
+st.title("5/28/2024")
+
+st.markdown("""
+
+📊 SPY Market Update: Internals, Secular Context, and Gamma Setup
+
+The rally off the April lows continues to look robust under the hood.
+
+✅ Breadth Check: Over 60–65% of S&P 500 stocks are trading above their 20-day moving average — a key threshold that historically marks a healthy, broad-based advance rather than a narrow rally.
+
+🔭 Secular Context: Zooming out, we’re still within the longer-term secular bull market. Yes, the monthly MACD is in negative territory (similar to the early stages of prior secular bear markets), but price remains well above the 20-month EMA — a notable divergence that suggests strength remains.
+
+🔄 Gamma Positioning: While SPY’s Key Gamma and Call Wall both sit at 600, today’s environment is less fueled by short-dated options. Duration across 3 of the top 5 strikes with the most net call gamma exceeds 20 trading days — meaning dealer hedging flows may be more muted, which increases the odds of a choppy session.
+
+🔍 Bottom Line: Internals remain strong, secular trends are intact, and gamma suggests we could be in for a consolidation day. Watching to see if 600 holds or acts as a near-term ceiling.
+
+""")
+
+st.image("assets/SPY Market Internals.jpg", caption="SPY Market Internals")
+st.image("assets/SPY Secular Bull.jpg", caption="SPY Secular Bull Market Context")
+st.image("assets/SPY Gamma Walls.jpg", caption="SPY Gamma Walls and Duration")
+st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")  # ✅ This will now work
+
+
+
+
+
+
+
+
 st.title("5/27/2024")
 
 st.markdown("""
