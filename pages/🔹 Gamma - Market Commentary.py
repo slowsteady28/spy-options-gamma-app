@@ -17,7 +17,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("5/29/2024")
+st.title("5/30/2024")
 
 st.markdown("""
 
@@ -47,46 +47,7 @@ These flows suggest that traders are still leaning bullish — but positioning i
 
 """)
 
-st.image("assets/SPY Market Internals.jpg", caption="SPY Market Internals")
-st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")  # ✅ This will now work
-
-
-
-
-
-st.title("5/29/2024")
-
-st.markdown("""
-
-🧠 SPY Gamma Update
-
-Markets open higher on the heels of NVIDIA earnings, but let’s not get distracted by price alone.
-
-📊 The options market tells a more nuanced story — one that hints at both support and constraint.
-
-Here’s what we’re seeing:
-
-🔹 SPY’s Call Wall remains parked at 600, unchanged since ~5/13. This is now a key ceiling into June — a month packed with macro catalysts, including quarterly OPEX and the JPMorgan fund roll.
-
-🔹 JPM’s large short call position sits near SPX 5900, generating positive gamma for dealers. As price rises toward that zone, dealer hedging behavior likely shifts toward selling strength — creating drag as we push higher.
-
-💡 Translation: The rally has support, but as we approach SPY 600, things may feel… heavy.
-
-Supporting that view is the short-dated call gamma building at SPY’s five largest strikes:
-
-📍 Largest: +16,594 call interest | 11-day duration
-📍 2nd: +12,427 call interest | 8-day duration
-📍 3rd: +11,690 call interest | 3-day duration
-📍 4th: +6,119 call interest | 19-day duration
-📍 5th: +14,263 call interest | 11-day duration
-
-These flows suggest that traders are still leaning bullish — but positioning implies tightening risk and a choppy path into mid-June.
-
-""")
-
-st.image("assets/SPY Market Internals.jpg", caption="SPY Market Internals")
-st.image("assets/SPY Secular Bull.jpg", caption="SPY Secular Bull Market Context")
-st.image("assets/SPY Gamma Walls.jpg", caption="SPY Gamma Walls and Duration")
+st.image("assets/SPY Options Dashboard.jpg", caption="SPY Options Dashboard")
 st.caption(f"Updated: {now.strftime('%b %d, %Y %I:%M %p')}")  # ✅ This will now work
 
 st.title("5/28/2024")
